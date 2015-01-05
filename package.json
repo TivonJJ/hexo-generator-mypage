@@ -1,0 +1,31 @@
+{
+  "name": "hexo-generator-mypage",
+  "version": "0.0.1",
+  "description": "custom page generator plugin for Hexo",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TivonJJ/hexo-generator-mypage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TivonJJ/hexo-generator-mypage/issues"
+  },
+  "keywords": [
+    "hexo",
+    "mypage",
+    "custom",
+    "generator"
+  ],
+  "author": {
+    "name": "Jee",
+    "email": "m@brafox.com",
+    "url": "http://www.brafox.com"
+  },
+  "homepage": "https://github.com/TivonJJ/hexo-generator-mypage",
+  "maintainers": [
+    {
+      "name": "Jee",
+      "email": "m@brafox.com"
+    }
+  ]
+}
