@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-mypage",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "custom page generator plugin for Hexo",
   "main": "index",
   "repository": {
