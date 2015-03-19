@@ -2,13 +2,13 @@
  * Created by Jee on 2015/1/4.
  */
 
-module.exports = function(locals, render, callback){
-    var config = hexo.config.mypage;
+module.exports = function(locals){
+    var config = this.config.mypage;
+    var data = [];
     for(var k in config){
         var path = k;
         var layout = config[k].split(",");
-        render(path,layout,locals);
+        data.push({path:path,data:locals,layout:layout});
     }
-
-    callback();
+    return data;
 };
